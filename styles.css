@@ -1,0 +1,45 @@
+html {
+    height:100%;
+}
+
+body {
+    background-color: #DAA42F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+#ethereum p {
+    width: 100%;
+    height:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#ethertotal {
+    text-align: center;
+
+}
+#display {
+    background-color: #8E8F77;
+    height: 40%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 8px 8px;
+  }
+  
+  
+  #blocks {
+    background-color: #8E8F77; 
+    height: 40%;
+    width: 80%;
+    display: flex;
+    border-radius: 8px 8px 8px 8px;
+  }
