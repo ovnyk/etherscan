@@ -36,7 +36,13 @@ body {
     border-radius: 8px 8px 8px 8px;
   }
   
-  
+  .blocks-container {
+    background-color: #8E8F77; 
+    height: 40%;
+    width: 80%;
+    border-radius: 8px 8px 8px 8px;
+  }
+
   #blocks {
     background-color: #8E8F77; 
     height: 40%;
