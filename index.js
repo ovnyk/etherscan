@@ -4,23 +4,6 @@ const TOKEN = "VWQC4XV7891N5JZBETE9JSV5HF9DSNSSY2"
 
 const FULL_URL = URLethertotal + TOKEN
 
-/* function request() {
-    fetch(FULL_URL)
-    .then(function(result){
-        return result.json()
-    })
-    .then(function(res) {
-        console.log(res)
-    })
-    .catch(function(error) {
-        console.log.apply(error)
-    })
-}
-request();
-
- */
-
-
 var ethertotal = document.querySelector("#ethertotal");
 console.log(ethertotal)
 
@@ -73,7 +56,7 @@ window.addEventListener("load", () => {
         var value = result.json()
         value.then(function(val){
             var ethertotal = document.querySelector("#recentblock");
-            ethertotal.innerHTML += " " + parseInt(val.result, 16)
+            ethertotal.innerHTML += " " + parseInt(val.result, 16) // convert hex value to decimal
         }) 
     })
     .then(function(res) {

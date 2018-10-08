@@ -24,11 +24,10 @@ body {
 }
 .ethertotal {
     text-align: center;
-
 }
 
 .display {
-    background-color: #8E8F77;
+    background-color: #757579;
     height: 40%;
     width: 80%;
     align-items: center;
@@ -37,16 +36,12 @@ body {
   }
   
   .blocks-container {
-    background-color: #8E8F77; 
+    background-color: #757579; 
     height: 40%;
     width: 80%;
     border-radius: 8px 8px 8px 8px;
   }
 
   #blocks {
-    background-color: #8E8F77; 
-    height: 40%;
-    width: 80%;
     display: flex;
-    border-radius: 8px 8px 8px 8px;
   }
