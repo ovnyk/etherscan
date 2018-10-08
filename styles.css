@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+#container {
     height:100%;
     width: 100%;
     display: flex;
@@ -22,11 +22,12 @@ body {
     justify-content: center;
     text-align: center;
 }
-#ethertotal {
+.ethertotal {
     text-align: center;
 
 }
-#display {
+
+.display {
     background-color: #8E8F77;
     height: 40%;
     width: 80%;

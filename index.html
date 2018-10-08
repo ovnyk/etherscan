@@ -7,29 +7,24 @@
         <script src="index.js"></script>
     </head>
     <body>
-        <div id="container">
-          <div id="ethereum"><p>Ethereum Network</p>
-          </div>
-            <hr color="#666569" />
-            <div class="display-container"></div>
-             <div id="display">
-                <h4 id="ethertotal">TOTAL ETHER SUPPLY</h4>
-                <h3 align="center" class="ether price"></h3>
-                    <p align="left">Last block</p>
-                    <h3 class="recentblock"></h3>
-                    <p class="block_time"></p>
-                    <p>Hash Rate</p>
-                    <p class="hashrate"></p>
-                    <p>Transaction</p>          
-                    <p class="tps"> </p>
-                    <p >Network Difficulty</p>
-                    <p class="difficulty"></p>
-            </div>
-                <hr color="#666569" />
-            <div id="blocks"><h3 align="center">Blocks</h3>
-            </div>
-                <hr color="#666569" />
-            </div>
+        <div class="container">
+          <div id="ethereum"><p>Ethereum Network</p></div>
+            <hr/>
+            <div class="display-container">
+             <div class="display">
+                  <h4 id="ethertotal">TOTAL ETHER SUPPLY</h4>
+                  <h4 id="etherprice"></h4>
+                  <p>Last block</p><h2 id="recentblock"></h2>
+                  <p>Gas Price</p><h2 id="gasprice"></h2>
+                  <p>Transaction</p><h2 id="transaction"></h2>      
+                  <p>Network Difficulty</p><h2 id="difficulty"></h2>
+              </div>
+             </div>
+                <hr/>
+                <div class="blocks-container"></div>
+                   <div id="blocks"><h3>Blocks</h3></div>
+                <hr/>
+         </div>
         </div>
     </body>
 </html>
